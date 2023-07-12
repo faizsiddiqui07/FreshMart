@@ -38,6 +38,12 @@
     .section-subtitle{
         max-width: 80%;
     }
+    .banner_section{
+        min-height: 70vh;
+    }
+    .banner_section .carousel-item{
+        height: 70vh;
+    }
 }
 @media (max-width:590px) {
     body, html{

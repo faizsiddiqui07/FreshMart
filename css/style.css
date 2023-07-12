@@ -247,3 +247,94 @@ section{
     max-width: 40rem;
     margin-bottom: 2rem;
 }
+.feature_section .features-box{
+    background-color: transparent;
+    border: 0.15rem solid var(--light-color);
+    padding: 8rem 0;
+    transition: all 0.3s;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.feature_section .features-icon-border{
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0.2rem solid var(--light-color);
+    padding: 1.3rem;
+    display: inline-block;
+}
+.feature_section .features-box .features-icon{
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    background-color: var(--light-color);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature_section .features-box .features-icon img{
+    width: 3.7rem;
+}
+.feature_section .features-box h3{
+    margin-top: 1.3rem;
+    color: var(--primary-text);
+}
+.feature_section .features-box:hover{
+    background-color: var(--dark-color);
+    border-color: var(--dark-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.feature_section .features-box:hover h3{
+    color: var(--text-white);
+}
+.feature_section .features-box:hover .features-icon-border{
+    border-color: var(--secondry-color);
+}
+.landing_about_section{
+    background: url(../images/about/about-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 10rem 0;
+}
+.landing_about_section p{
+    color: var(--primary-text);
+    margin-bottom: 2rem;
+}
+.landing_product_section .product-card{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0.2rem solid var(--light-color);
+    padding: 2rem 1rem;
+    transition: all 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.landing_product_section .product-card .product-img{
+    margin-bottom: 7rem;
+    text-align: center;
+}
+.landing_product_section .product-card h3{
+    color: var(--primary-text);
+}
+.landing_product_section .product-card span{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    color: var(--secondry-color);
+    margin-right: 0.5rem;
+    transition: all 0.3s;
+}
+.landing_product_section .product-card .product-detail{
+    position: absolute;
+    bottom: -22rem;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: var(--dark-color);
+    transition: all 0.3s ease;
+}
+.landing_product_section .product-card:hover .product-detail{
+    bottom: 0;
+}
