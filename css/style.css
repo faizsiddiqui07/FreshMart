@@ -338,3 +338,137 @@ section{
 .landing_product_section .product-card:hover .product-detail{
     bottom: 0;
 }
+.testimonial_section{
+    background-color: var(--light-color);
+    padding-bottom: 8rem;
+}
+.testimonial_section .carousel-indicators{
+    bottom: -6rem;
+}
+.testimonial_section .carousel-indicators button{
+    background-color: var(--dark-color);
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+}
+.testimonial_section .card{
+    background: url(../images/testimonial/testimonial-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    padding: 5rem 5rem 5rem 0;
+    border: 0.1rem solid transparent;
+}
+.testimonial_section .profile-box{
+    padding: 1.875rem;
+    background-color: var(--dark-color);
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+.testimonial_section .profile-box img{
+    border-radius: 0.625rem 3.125rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.testimonial_section .desc-box{
+    padding-left: 2.5rem;
+}
+.gallery_section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer_wrapper{
+    background: url(../images/footer-bg/footer_bg.png);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15rem;
+    padding-bottom: 0rem;
+}
+.footer_wrapper img{
+    width: 50%;
+    margin-bottom: 1.25rem;
+}
+.footer_wrapper h5{
+    color: var(--text-white);
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+.footer_wrapper ul li{
+    margin-bottom: 0.5rem;
+    list-style: none;
+}
+.footer_wrapper .company-details{
+    font-size: 1.4rem;
+}
+.footer_wrapper .contact-info li a{
+    color: var(--text-gray);
+    font-size: 1.6rem;
+}
+.footer_wrapper .link-widget li a,
+.footer_wrapper p{
+    color: var(--text-gray);
+    font-size: 1.6rem;
+    padding-left: 1.5rem;
+    position: relative;
+    transition: all 0.3s ease-in;
+}
+.footer_wrapper .link-widget li a::before{
+    content: '\f105';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0.3rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.footer_wrapper .link-widget li a:hover{
+    margin-left: 0.625rem;
+    color: var(--secondry-color);
+}
+.footer_wrapper .social-network a{
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.2rem;
+    margin: 0.5rem;
+    display: inline-block;
+    border: 0.125rem solid var(--text-gray);
+    color: var(--text-gray);
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 100%;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.footer_wrapper .social-network a:hover{
+    background-color: var(--secondry-color);
+    border-color: var(--secondry-color);
+    color: var(--text-white);
+    transform: translateY(-0.1875rem);
+    box-shadow: 0 0.625rem 0.9375rem 0 rgb(0, 0, 0 / 10%);
+}
+.footer_wrapper .form-control{
+    font-size: 2rem;
+    color: var(--text-white);
+}
+.footer_wrapper .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: var(--secondry-color);
+}
+.footer_wrapper .copyright-section{
+    background-color: var(--secondry-color);
+    text-align: center;
+    margin-top: 5rem;
+}
+.footer_wrapper .copyright-section p{
+    margin-top: 0;
+    padding: 2.5rem 0;
+    line-height: 0;
+    font-size: 2rem;
+}
+.footer_wrapper .copyright-section a{
+    color: var(--primary-text);
+    font-weight: 600;
+}
