@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 *{
     margin: 0;
@@ -17,8 +17,9 @@
     --text-gray:#dee2e6;
     --anchor-color:#007aff;
 
-    --primary-font:'Barlow Condensed', sans-serif;
-    --secondary-font:'Roboto', sans-serif;
+    /* Font Family */
+    --primary-font: 'Barlow Condensed', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
 }
 body,html{
     color: var(--primary-text);
@@ -70,7 +71,6 @@ p{
     color: var(--primary-text);
     margin-top: 1rem;
     font-family: var(--secondary-font);
-    font-weight: 400;
 }
 embed,
 iframe,
@@ -402,9 +402,7 @@ section{
     margin-bottom: 0.5rem;
     list-style: none;
 }
-.footer_wrapper .company-details{
-    font-size: 1.4rem;
-}
+
 .footer_wrapper .contact-info li a{
     color: var(--text-gray);
     font-size: 1.6rem;
