@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;500;700;900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;500;700;900&display=swap');
 
 *{
     margin: 0;
@@ -11,7 +9,7 @@
 }
 :root{
     --bg-white:#fff;
-    --primary-text:#061378;
+    --primary-text:#061738;
     --secondry-color:#60cd12;
     --light-color:#e2f6de;
     --dark-color:#03262c;
@@ -20,7 +18,7 @@
     --anchor-color:#007aff;
 
     --primary-font:'Barlow Condensed', sans-serif;
-    --secondry-font:'Roboto', sans-serif, 
+    --secondary-font:'Roboto', sans-serif;
 }
 body,html{
     color: var(--primary-text);
@@ -71,7 +69,8 @@ p{
     line-height: 1.6;
     color: var(--primary-text);
     margin-top: 1rem;
-    font-family: var(--secondry-font);
+    font-family: var(--secondary-font);
+    font-weight: 400;
 }
 embed,
 iframe,
@@ -142,7 +141,7 @@ section{
     font-size: 1.6rem;
     font-weight: 400;
     color: var(--primary-text);
-    font-family: var(--secondry-font);
+    font-family: var(--secondary-font);
     max-width: 40%;
     margin: auto;
     margin-bottom: 1.5rem;
@@ -387,9 +386,12 @@ section{
     padding-top: 15rem;
     padding-bottom: 0rem;
 }
-.footer_wrapper img{
+/* .footer_wrapper img{
     width: 50%;
     margin-bottom: 1.25rem;
+} */
+.footer_wrapper .company-detail{
+    font-size: 1.4rem;
 }
 .footer_wrapper h5{
     color: var(--text-white);
